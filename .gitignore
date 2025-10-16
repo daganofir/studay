@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+
+# Env
+.env
+.env.local
+.env.*.local
+frontend/.env
+backend/.env
+
+# Prisma
+backend/prisma/dev.db
+backend/prisma/*.sqlite
+backend/prisma/migrations/*/migration_lock.toml
+
+# Logs
+logs/
+*.log
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Coverage
+coverage/
